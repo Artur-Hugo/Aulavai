@@ -28,7 +28,7 @@ public class ContatoActivity extends AppCompatActivity {
 
     public void efetuarligação(View view) {
         Intent intent = new Intent(Intent.ACTION_CALL,
-                Uri.parse("tel:" + "11951542697"));
+                Uri.parse("tel:" + "11951542697"));/////
 
         if (checkSelfPermission(Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
